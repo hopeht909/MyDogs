@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		84A00401277B511400F950FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A00400277B511400F950FD /* AppDelegate.swift */; };
 		84A00403277B511400F950FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A00402277B511400F950FD /* SceneDelegate.swift */; };
-		84A00405277B511400F950FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A00404277B511400F950FD /* ViewController.swift */; };
+		84A00405277B511400F950FD /* DogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A00404277B511400F950FD /* DogsViewController.swift */; };
 		84A00408277B511400F950FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A00406277B511400F950FD /* Main.storyboard */; };
 		84A0040B277B511400F950FD /* MyDogs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84A00409277B511400F950FD /* MyDogs.xcdatamodeld */; };
 		84A0040D277B511500F950FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A0040C277B511500F950FD /* Assets.xcassets */; };
 		84A00410277B511500F950FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A0040E277B511500F950FD /* LaunchScreen.storyboard */; };
+		84A00419277B520400F950FD /* Dog+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A00417277B520400F950FD /* Dog+CoreDataClass.swift */; };
+		84A0041A277B520400F950FD /* Dog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A00418277B520400F950FD /* Dog+CoreDataProperties.swift */; };
+		84A0041D277B55F900F950FD /* DogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0041C277B55F900F950FD /* DogCell.swift */; };
+		84A00420277B569900F950FD /* AddDogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0041F277B569900F950FD /* AddDogsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84A003FD277B511400F950FD /* MyDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A00400277B511400F950FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84A00402277B511400F950FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84A00404277B511400F950FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84A00404277B511400F950FD /* DogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsViewController.swift; sourceTree = "<group>"; };
 		84A00407277B511400F950FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84A0040A277B511400F950FD /* MyDogs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDogs.xcdatamodel; sourceTree = "<group>"; };
 		84A0040C277B511500F950FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A0040F277B511500F950FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A00411277B511500F950FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A00417277B520400F950FD /* Dog+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84A00418277B520400F950FD /* Dog+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84A0041C277B55F900F950FD /* DogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCell.swift; sourceTree = "<group>"; };
+		84A0041F277B569900F950FD /* AddDogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDogsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,8 @@
 		84A003F4277B511400F950FD = {
 			isa = PBXGroup;
 			children = (
+				84A00417277B520400F950FD /* Dog+CoreDataClass.swift */,
+				84A00418277B520400F950FD /* Dog+CoreDataProperties.swift */,
 				84A003FF277B511400F950FD /* MyDogs */,
 				84A003FE277B511400F950FD /* Products */,
 			);
@@ -60,7 +70,8 @@
 			children = (
 				84A00400277B511400F950FD /* AppDelegate.swift */,
 				84A00402277B511400F950FD /* SceneDelegate.swift */,
-				84A00404277B511400F950FD /* ViewController.swift */,
+				84A0041E277B55FD00F950FD /* CustomCell */,
+				84A0041B277B55D300F950FD /* Controllers */,
 				84A00406277B511400F950FD /* Main.storyboard */,
 				84A0040C277B511500F950FD /* Assets.xcassets */,
 				84A0040E277B511500F950FD /* LaunchScreen.storyboard */,
@@ -68,6 +79,23 @@
 				84A00409277B511400F950FD /* MyDogs.xcdatamodeld */,
 			);
 			path = MyDogs;
+			sourceTree = "<group>";
+		};
+		84A0041B277B55D300F950FD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84A00404277B511400F950FD /* DogsViewController.swift */,
+				84A0041F277B569900F950FD /* AddDogsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84A0041E277B55FD00F950FD /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				84A0041C277B55F900F950FD /* DogCell.swift */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A00405277B511400F950FD /* ViewController.swift in Sources */,
+				84A0041A277B520400F950FD /* Dog+CoreDataProperties.swift in Sources */,
+				84A00405277B511400F950FD /* DogsViewController.swift in Sources */,
+				84A00419277B520400F950FD /* Dog+CoreDataClass.swift in Sources */,
+				84A00420277B569900F950FD /* AddDogsViewController.swift in Sources */,
 				84A00401277B511400F950FD /* AppDelegate.swift in Sources */,
 				84A0040B277B511400F950FD /* MyDogs.xcdatamodeld in Sources */,
+				84A0041D277B55F900F950FD /* DogCell.swift in Sources */,
 				84A00403277B511400F950FD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +330,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,6 +358,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
